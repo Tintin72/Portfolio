@@ -30,11 +30,28 @@ export default function About() {
           </div>
         </div>
         <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-          <img
+          <div
+            class="badge-base LI-profile-badge"
+            data-locale="en_US"
+            data-size="large"
+            data-theme="dark"
+            data-type="HORIZONTAL"
+            data-vanity="martinkinaro"
+            data-version="v1"
+          >
+            <a
+              class="badge-base__link LI-simple-link"
+              href="https://ke.linkedin.com/in/martinkinaro?trk=profile-badge"
+            >
+              Martin Kinaro
+            </a>
+          </div>
+
+          {/* <img
             className="object-cover object-center rounded"
             alt="hero"
             src="./coding.svg"
-          />
+          /> */}
         </div>
       </div>
     </section>
