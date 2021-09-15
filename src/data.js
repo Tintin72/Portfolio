@@ -17,10 +17,17 @@ export const projects = [
   {
     title: "Epic Todo App",
     subtitle: "React Hooks",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+    description: "A simple todo react project",
     image: "./project-4.gif",
     link: "#",
+  },
+  {
+    title: "Breaking Bad Api",
+    subtitle: "React and Tailwind Css",
+    description:
+      "A web app showcasing the characters of the popular tv series the breaking bad",
+    image: "./walterwhite.gif",
+    link: "https://the-breaking-bad-api-v1.netlify.app/",
   },
 ];
 

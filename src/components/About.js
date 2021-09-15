@@ -30,7 +30,7 @@ export default function About() {
           </div>
         </div>
         <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-          <div
+          {/* <div
             class="badge-base LI-profile-badge"
             data-locale="en_US"
             data-size="large"
@@ -45,13 +45,12 @@ export default function About() {
             >
               Martin Kinaro
             </a>
-          </div>
-
-          {/* <img
+          </div>  */}
+          <img
             className="object-cover object-center rounded"
             alt="hero"
             src="./coding.svg"
-          /> */}
+          />
         </div>
       </div>
     </section>

@@ -1,0 +1,16 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "hello"
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "contacts":{
+    "name":"James John",
+    "email":"john@gmail.com",
+    "message":"Hey I need your services"
+  }
+}

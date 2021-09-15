@@ -15,15 +15,27 @@ export default function Contacts() {
       .join("&");
   }
 
+  const onAdd = (item) => {
+    fetch("https://my-json-server.typicode.com/Tintin72/Portfolio/contacts", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(item),
+    })
+      .then((data) => data.json())
+      .catch((error) => alert(error));
+  };
+
   function handleSubmit(e) {
     e.preventDefault();
-    fetch("/", {
-      method: "POST",
-      headers: { "Content-Type": "application/x-www-form-urlencoded" },
-      body: encode({ "form-name": "contact", name, email, message }),
-    })
-      .then(() => alert("Message sent!"))
-      .catch((error) => alert(error));
+
+    onAdd({
+      name,
+      email,
+      message,
+    });
+    setName("");
+    setEmail("");
+    setMessage("");
   }
   return (
     <section id="contact" className="relative">
