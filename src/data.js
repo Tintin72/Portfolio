@@ -33,13 +33,15 @@ export const projects = [
 
 export const testimonials = [
   {
-    quote: "Did a very good job. Love the passion and accountability.",
+    quote:
+      "Did a very good job in developing an API based covid-19 tracker for my project. Was fast in coming with the results.",
     image: "https://randomuser.me/api/portraits/men/1.jpg",
-    name: "Chemutai",
+    name: "Marvin",
     company: "Student",
   },
   {
-    quote: "I like how Martin is dedicated to his work.",
+    quote:
+      "I like how Martin is dedicated to his work.Deployed a really nice and fast application that helped our company interact with our customers alot better.",
     image: "https://randomuser.me/api/portraits/men/94.jpg",
     name: "Watson",
     company: "Property Merchants",

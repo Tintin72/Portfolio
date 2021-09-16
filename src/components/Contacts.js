@@ -7,13 +7,13 @@ export default function Contacts() {
   const [email, setEmail] = React.useState("");
   const [message, setMessage] = React.useState("");
 
-  function encode(data) {
-    return Object.keys(data)
-      .map(
-        (key) => encodeURIComponent(key) + "=" + encodeURIComponent(data[key])
-      )
-      .join("&");
-  }
+  // function encode(data) {
+  //   return Object.keys(data)
+  //     .map(
+  //       (key) => encodeURIComponent(key) + "=" + encodeURIComponent(data[key])
+  //     )
+  //     .join("&");
+  // }
 
   const onAdd = (item) => {
     fetch("https://my-json-server.typicode.com/Tintin72/Portfolio/contacts", {
@@ -21,8 +21,13 @@ export default function Contacts() {
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(item),
     })
-      .then((data) => data.json())
+      .then((data) => console.log(data.json()))
+      .then((val) => console.log(val))
       .catch((error) => alert(error));
+
+    setName("");
+    setEmail("");
+    setMessage("");
   };
 
   function handleSubmit(e) {
@@ -33,9 +38,6 @@ export default function Contacts() {
       email,
       message,
     });
-    setName("");
-    setEmail("");
-    setMessage("");
   }
   return (
     <section id="contact" className="relative">
