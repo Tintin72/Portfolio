@@ -12,7 +12,7 @@ export default function Skills() {
             Skills &amp; Technologies
           </h1>
           <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
-            I have particular intersts in React and Django rest as they are my
+            I have particular intersts in Nuxtjs and Django as they are my
             go to tools for any web application I try to build.
           </p>
         </div>

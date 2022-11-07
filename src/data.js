@@ -1,17 +1,17 @@
 export const projects = [
   {
-    title: "React Tracks",
-    subtitle: "React and Python",
+    title: "Tiny Pesa",
+    subtitle: "Nuxt/Vue and Python",
     description:
-      "This project was a property management system for a client. Will upload link in future.",
-    image: "./project-2.gif",
-    link: "#",
+      "Tiny Pesa is a payment processing platform that allows users to utilise M-pesas STK Push API as well as integrate bank payments.",
+    image: "./tinyafrica.png",
+    link: "https://tinypesa.com",
   },
   {
-    title: "DevChat",
-    subtitle: "React and Firebase",
+    title: "PnP Radius",
+    subtitle: "Nuxt/Vue and Django",
     description: "An experimental react firebase project up and coming",
-    image: "./project-3.gif",
+    image: "./pnpradius.png",
     link: "#",
   },
   {
@@ -57,4 +57,10 @@ export const skills = [
   "Django",
   "Flask",
   "Material UI",
+  "Vue", 
+  "Nuxt",
+  "Docker",
+  "Sql",
+  "MongoDb",
+  "FaunaDb"
 ];
