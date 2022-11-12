@@ -14,12 +14,13 @@ export default function Projects() {
             Apps I've Built
           </h1>
           <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-            Here are some of the apps I have build over my short career.
+            Here are some of the apps I have build over my career.
           </p>
         </div>
         <div className="flex flex-wrap -m-4">
           {projects.map((project) => (
             <a
+              target="_blank"
               href={project.link}
               key={project.image}
               className="sm:w-1/2 w-100 p-4"

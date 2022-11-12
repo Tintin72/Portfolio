@@ -21,7 +21,9 @@ export default function Contacts() {
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(item),
     })
-      .then((data) => console.log(data.json()))
+      .then((data) => {
+        alert("Thank you for leaving your feedback. I will soon get back to you.")
+        console.log(data.json())})
       .then((val) => console.log(val))
       .catch((error) => alert(error));
 
@@ -52,7 +54,7 @@ export default function Contacts() {
             marginHeight={0}
             marginWidth={0}
             style={{ filter: "opacity(0.7)" }}
-            src="https://www.google.com/maps/embed/v1/place?q=wendani&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"
+            src="https://maps.google.com/maps?q=nikoradius&t=&z=15&ie=UTF8&iwloc=&output=embed"
           />
           <div className="bg-gray-900 relative flex flex-wrap py-6 rounded shadow-md">
             <div className="lg:w-1/2 px-6">
@@ -60,11 +62,11 @@ export default function Contacts() {
                 ADDRESS
               </h2>
               <p className="mt-1">
-                Nairobi <br />
-                Kahawa Wendani
+                Juja <br />
+                Niko Radius Engineering Office
               </p>
             </div>
-            <div className="lg:w-1/2 px-6 mt-4 lg:mt-0">
+            <div className="px-6 mt-4 lg:mt-0">
               <h2 className="title-font font-semibold text-white tracking-widest text-xs">
                 EMAIL
               </h2>

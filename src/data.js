@@ -12,15 +12,15 @@ export const projects = [
     subtitle: "Nuxt/Vue and Django",
     description: "An experimental react firebase project up and coming",
     image: "./pnpradius.png",
-    link: "#",
+    link: "https://pnpradius.com",
   },
-  {
-    title: "Epic Todo App",
-    subtitle: "React Hooks",
-    description: "A simple todo react project",
-    image: "./project-4.gif",
-    link: "#",
-  },
+  // {
+  //   title: "Epic Todo App",
+  //   subtitle: "React Hooks",
+  //   description: "A simple todo react project",
+  //   image: "./project-4.gif",
+  //   link: "#",
+  // },
   {
     title: "Breaking Bad Api",
     subtitle: "React and Tailwind Css",
@@ -35,14 +35,14 @@ export const testimonials = [
   {
     quote:
       "Did a very good job in developing an API based covid-19 tracker for my project. Was fast in coming with the results.",
-    image: "https://randomuser.me/api/portraits/men/1.jpg",
+    image: "https://randomuser.me/api/portraits/men/16.jpg",
     name: "Marvin",
     company: "Student",
   },
   {
     quote:
       "I like how Martin is dedicated to his work.Deployed a really nice and fast application that helped our company interact with our customers alot better.",
-    image: "https://randomuser.me/api/portraits/men/94.jpg",
+    image: "https://randomuser.me/api/portraits/men/25.jpg",
     name: "Watson",
     company: "Property Merchants",
   },

@@ -10,10 +10,9 @@ export default function About() {
             <br className="hidden lg:inline-block" />I love to build amazing
             apps.
           </h1>
-          <p className="mb-8 leading-relaxed text-base">
-            I am a passionate javascript and python web developer with expertise
-            in REST,React, Vue and Material UI. Big lover of technology and
-            looking into blockchain technology and web3.
+          <p className="mb-8 leading-relaxed text-base text-lg">
+            I am a full-stack web developer with expertise
+            in React, Vue and Django. Big lover of technology with interests in blockchain technology and web3.
           </p>
           <div className="flex justify-center">
             <a
