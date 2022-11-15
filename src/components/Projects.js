@@ -1,10 +1,8 @@
 import { CodeIcon } from "@heroicons/react/solid";
 import React from "react";
 import { projects } from "../data";
-import { Image, Page, View } from "@react-pdf/renderer";
 
 export default function Projects() {
-  const [clicked, setClicked] = React.useState(false);
   return (
     <section id="projects" className="text-gray-400 bg-gray-900 body-font">
       <div className="container px-5 py-10 mx-auto text-center lg:px-40">
@@ -41,11 +39,6 @@ export default function Projects() {
                   <p className="leading-relaxed">{project.description}</p>
                 </div>
               </div>
-              {clicked && (
-                <div className="flex">
-                  <Image src={project.image} />
-                </div>
-              )}
             </a>
           ))}
         </div>
