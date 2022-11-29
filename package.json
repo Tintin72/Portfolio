@@ -1,5 +1,6 @@
 {
-  "name": "my-portfolio",
+  "name": "kinaro-portfolio",
+  "homepage": "https://Tintin72.github.io/Portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -8,11 +9,14 @@
     "@react-pdf/renderer": "^3.0.0",
     "africastalking": "^0.5.7",
     "express": "^4.18.2",
+    "gh-pages": "^4.0.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "^1.1.5"
   },
   "scripts": {
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d build",
     "start": "craco start",
     "build": "craco build",
     "test": "craco test",
